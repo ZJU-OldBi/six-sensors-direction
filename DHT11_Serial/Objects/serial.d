@@ -1,0 +1,12 @@
+.\objects\serial.o: Hardware\Serial.c
+.\objects\serial.o: .\Start\stm32f10x.h
+.\objects\serial.o: .\Start\core_cm3.h
+.\objects\serial.o: C:\Users\23980\AppData\Local\Keil_v5\ARM\version5.06\Bin\..\include\stdint.h
+.\objects\serial.o: .\Start\system_stm32f10x.h
+.\objects\serial.o: .\User\stm32f10x_conf.h
+.\objects\serial.o: .\Library\stm32f10x_gpio.h
+.\objects\serial.o: .\Start\stm32f10x.h
+.\objects\serial.o: .\Library\stm32f10x_rcc.h
+.\objects\serial.o: .\Library\stm32f10x_usart.h
+.\objects\serial.o: C:\Users\23980\AppData\Local\Keil_v5\ARM\version5.06\Bin\..\include\stdio.h
+.\objects\serial.o: C:\Users\23980\AppData\Local\Keil_v5\ARM\version5.06\Bin\..\include\stdarg.h

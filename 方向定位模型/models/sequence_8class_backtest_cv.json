@@ -1,0 +1,7 @@
+{
+  "mode": "cross_validated_held_out",
+  "sample_count": 63,
+  "class_accuracy": 0.19047619047619047,
+  "continuous_circular_mae_deg": 58.57142857142857,
+  "output": "E:\\asus研究生\\0研究方向\\机器嗅觉+大模型+机器狗方案\\32代码\\方向定位\\方向定位模型\\models\\sequence_8class_backtest_cv.csv"
+}

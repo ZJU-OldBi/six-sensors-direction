@@ -1,0 +1,10 @@
+.\objects\system_stm32f10x.o: Start\system_stm32f10x.c
+.\objects\system_stm32f10x.o: Start\stm32f10x.h
+.\objects\system_stm32f10x.o: Start\core_cm3.h
+.\objects\system_stm32f10x.o: C:\Users\23980\AppData\Local\Keil_v5\ARM\version5.06\Bin\..\include\stdint.h
+.\objects\system_stm32f10x.o: Start\system_stm32f10x.h
+.\objects\system_stm32f10x.o: .\User\stm32f10x_conf.h
+.\objects\system_stm32f10x.o: .\Library\stm32f10x_gpio.h
+.\objects\system_stm32f10x.o: .\Start\stm32f10x.h
+.\objects\system_stm32f10x.o: .\Library\stm32f10x_rcc.h
+.\objects\system_stm32f10x.o: .\Library\stm32f10x_usart.h

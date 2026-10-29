@@ -1,0 +1,14 @@
+[
+  {
+    "source_csv": "..\\方向传感数据\\0度\\sensor_data_2026-10-15_11-52-48.csv",
+    "reason": "Insufficient reliable selected-sensor responses: 4/5 have SNR >= 3.0"
+  },
+  {
+    "source_csv": "..\\方向传感数据\\0度\\sensor_data_2026-10-15_11-55-25.csv",
+    "reason": "Insufficient reliable selected-sensor responses: 4/5 have SNR >= 3.0"
+  },
+  {
+    "source_csv": "..\\方向传感数据\\135度\\sensor_data_2026-10-15_12-09-14.csv",
+    "reason": "Insufficient reliable selected-sensor responses: 4/5 have SNR >= 3.0"
+  }
+]

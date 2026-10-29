@@ -33,3 +33,4 @@
 .\objects\main.o: .\Hardware\AD.h
 .\objects\main.o: .\Hardware\Serial.h
 .\objects\main.o: C:\Users\23980\AppData\Local\Keil_v5\ARM\version5.06\Bin\..\include\stdio.h
+.\objects\main.o: .\Hardware\DHT11.h

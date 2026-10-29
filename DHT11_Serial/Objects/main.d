@@ -1,0 +1,14 @@
+.\objects\main.o: User\main.c
+.\objects\main.o: .\Start\stm32f10x.h
+.\objects\main.o: .\Start\core_cm3.h
+.\objects\main.o: C:\Users\23980\AppData\Local\Keil_v5\ARM\version5.06\Bin\..\include\stdint.h
+.\objects\main.o: .\Start\system_stm32f10x.h
+.\objects\main.o: .\User\stm32f10x_conf.h
+.\objects\main.o: .\Library\stm32f10x_gpio.h
+.\objects\main.o: .\Start\stm32f10x.h
+.\objects\main.o: .\Library\stm32f10x_rcc.h
+.\objects\main.o: .\Library\stm32f10x_usart.h
+.\objects\main.o: .\System\Delay.h
+.\objects\main.o: .\Hardware\Serial.h
+.\objects\main.o: C:\Users\23980\AppData\Local\Keil_v5\ARM\version5.06\Bin\..\include\stdio.h
+.\objects\main.o: .\Hardware\DHT11.h

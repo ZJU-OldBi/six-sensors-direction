@@ -24,22 +24,25 @@ void Serial_Init(void)
 	USART_InitTypeDef USART_InitStructure;
 	USART_InitStructure.USART_BaudRate = 9600;
 	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
-	USART_InitStructure.USART_Mode = USART_Mode_Tx | USART_Mode_Rx;
+	/* 主工程只发送数据，不接收；关闭 RX，避免 RX 线上的噪声进中断干扰 DHT11 时序 */
+	USART_InitStructure.USART_Mode = USART_Mode_Tx;
 	USART_InitStructure.USART_Parity = USART_Parity_No;
 	USART_InitStructure.USART_StopBits = USART_StopBits_1;
 	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
 	USART_Init(USART1, &USART_InitStructure);
 	
-	USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
-	
-	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
-	
-	NVIC_InitTypeDef NVIC_InitStructure;
-	NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;
-	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
-	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;
-	NVIC_Init(&NVIC_InitStructure);
+	/* 不再开启 USART1 RX 中断（主工程只用发送）。
+	 * 如果以后需要接收上位机命令，再取消下面这段注释。 */
+	// USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
+	//
+	// NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+	//
+	// NVIC_InitTypeDef NVIC_InitStructure;
+	// NVIC_InitStructure.NVIC_IRQChannel = USART1_IRQn;
+	// NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+	// NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+	// NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;
+	// NVIC_Init(&NVIC_InitStructure);
 	
 	USART_Cmd(USART1, ENABLE);
 }

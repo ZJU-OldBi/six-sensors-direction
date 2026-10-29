@@ -1,0 +1,61 @@
+{
+  "total_csv": 74,
+  "good": 15,
+  "warning": 48,
+  "bad": 11,
+  "by_angle": {
+    "0": {
+      "warning": 6,
+      "bad": 2,
+      "good": 1
+    },
+    "45": {
+      "warning": 6,
+      "bad": 2,
+      "good": 1
+    },
+    "90": {
+      "warning": 7,
+      "good": 3,
+      "bad": 1
+    },
+    "135": {
+      "warning": 3,
+      "good": 2,
+      "bad": 1
+    },
+    "180": {
+      "warning": 7,
+      "good": 3,
+      "bad": 2
+    },
+    "225": {
+      "bad": 2,
+      "warning": 4,
+      "good": 1
+    },
+    "270": {
+      "warning": 7,
+      "good": 4,
+      "bad": 1
+    },
+    "315": {
+      "warning": 8
+    }
+  },
+  "criteria": {
+    "selected_sensors": "1-6",
+    "positive_rise_only": true,
+    "min_response_snr": 3.0,
+    "warning_if_min_onset_gap_samples_at_most": 2,
+    "warning_if_selected_sensor_snr_below": 5,
+    "bad_if_any_selected_sensor_snr_below": 3.0
+  },
+  "errors": [],
+  "report_csv": "E:\\asus研究生\\0研究方向\\机器嗅觉+大模型+机器狗方案\\32代码\\方向定位\\方向定位模型\\models\\direction_data_quality.csv",
+  "good_csv": "E:\\asus研究生\\0研究方向\\机器嗅觉+大模型+机器狗方案\\32代码\\方向定位\\方向定位模型\\models\\direction_data_good.csv",
+  "problem_csv": "E:\\asus研究生\\0研究方向\\机器嗅觉+大模型+机器狗方案\\32代码\\方向定位\\方向定位模型\\models\\direction_data_problem.csv",
+  "order_summary_csv": "E:\\asus研究生\\0研究方向\\机器嗅觉+大模型+机器狗方案\\32代码\\方向定位\\方向定位模型\\models\\direction_order_by_angle.csv",
+  "stable_angle_count": 1,
+  "report_markdown": "E:\\asus研究生\\0研究方向\\机器嗅觉+大模型+机器狗方案\\32代码\\方向定位\\方向定位模型\\models\\direction_data_quality_report.md"
+}
